@@ -1,7 +1,6 @@
 package org.ui.cross.platform.widgets.widgetfactory;
 
-
-public class ProductCardWidgetFactory extends WidgetFactory {
+public class HomePageWidgetFactory extends WidgetFactory {
     @Override
     public WidgetCreationStrategy createStrategy(WidgetData widgetData) {
         System.out.println(widgetData.type);
@@ -15,8 +14,3 @@ public class ProductCardWidgetFactory extends WidgetFactory {
         }
     }
 }
-
-// -> ProductPageFactory -> ProductPageMapper
-// -> ProductCardStrategy -> ProductCardGenerator
-// -> Each Strategy class is a BaseWidget Child
-// -> Each Page is a MultiWidgetPage which consists of a

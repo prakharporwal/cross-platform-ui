@@ -1,6 +1,7 @@
 package org.ui.cross.platform.widgets.widgetfactory;
 
-public class WidgetFactory {
-    void make(){
+public abstract class WidgetFactory {
+    public WidgetCreationStrategy createStrategy(WidgetData widgetData) {
+        return null;
     }
 }
